@@ -90,7 +90,6 @@
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.csprojAssemblyReference.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\staticwebassets\ImageSharingWithModel.StaticWebAssets.Manifest.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\staticwebassets\ImageSharingWithModel.StaticWebAssets.xml
-C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.RazorAssemblyInfo.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.RazorAssemblyInfo.cs
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.AssemblyInfoInputs.cache
@@ -174,5 +173,6 @@ C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageS
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.RazorTargetAssemblyInfo.cs
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.Views.pdb
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.csproj.CopyComplete
-C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.csproj.CoreCompileInputs.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.genruntimeconfig.cache
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.csproj.CoreCompileInputs.cache
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithModel\ImageSharingWithModel\obj\Debug\netcoreapp3.1\ImageSharingWithModel.MvcApplicationPartsAssemblyInfo.cache

@@ -106,16 +106,26 @@ namespace ImageSharingWithModel.Controllers
                 return View(imageView);
             }
 
-            // TODO save image metadata in the database 
+            // save image metadata in the database 
+            Image image = new Image { Caption = imageView.Caption, Description = imageView.Description, DateTaken = imageView.DateTaken, UserId = user.Id, TagId = imageView.TagId};
+            db.Images.Add(image);
 
-            // end TODO
             await db.SaveChangesAsync();
 
             mkDirectories();
 
-            // TODO save image file on disk
-
-            // end TODO
+            // save image file on disk
+            System.Drawing.Image img = System.Drawing.Image.FromStream(imageView.ImageFile.OpenReadStream());
+            if (img.RawFormat.Guid == System.Drawing.Imaging.ImageFormat.Jpeg.Guid)
+            {
+                StreamWriter file = new StreamWriter(imageDataFile(image.Id));
+                await imageView.ImageFile.CopyToAsync(file.BaseStream);
+            }
+            else
+            {
+                ViewBag.Message = "Incorrect format detected. Please upload a JPG file.";
+                return View(image);
+            }
 
             return RedirectToAction("Details", new { Id = image.Id });
         }

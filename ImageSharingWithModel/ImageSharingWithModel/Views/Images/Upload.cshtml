@@ -12,18 +12,21 @@
     <fieldset>
         <legend>Enter Image Information</legend>
         <p>
-            Caption: <!-- TODO -->
+            Caption: <input asp-for="Caption"/>
+                     <span asp-validation-for="Caption" class="text-danger"></span>
         </p>
         <p>
-            Select a tag: <!-- TODO -->
+            Select a tag: 
+                          <select asp-for="TagId" asp-items="Model.Tags"></select>
+        </p>
+        <p>
+            Description:<br /> 
+            <textarea asp-for="Description">Enter description here.</textarea>
 
         </p>
         <p>
-            Description:<br /> <!-- TODO -->
-
-        </p>
-        <p>
-            Date taken: <!-- TODO -->
+            Date taken: <input asp-for="DateTaken"/>
+                        <span class="text-danger" asp-validation-for="DateTaken"></span>
 
         </p>
         <p>

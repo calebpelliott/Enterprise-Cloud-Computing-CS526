@@ -38,7 +38,7 @@ namespace ImageSharingWithModel
 
             services.AddControllersWithViews();
 
-            // TODO add database context & enable saving data in the log (not for production use!)
+            // add database context & enable saving data in the log (not for production use!)
             services.AddDbContext<ApplicationDbContext>(optionsAction => optionsAction.UseSqlServer(Configuration["Data:ImageSharingDB:ConnectionString"]));
             services.AddDbContext<ApplicationDbContext>(optionsAction => optionsAction.EnableSensitiveDataLogging(true));
 

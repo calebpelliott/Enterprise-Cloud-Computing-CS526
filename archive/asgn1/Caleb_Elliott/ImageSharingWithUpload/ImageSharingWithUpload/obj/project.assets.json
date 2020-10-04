@@ -153,11 +153,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithUpload\\ImageSharingWithUpload\\ImageSharingWithUpload.csproj",
+      "projectUniqueName": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn1\\Caleb_Elliott\\ImageSharingWithUpload\\ImageSharingWithUpload\\ImageSharingWithUpload.csproj",
       "projectName": "ImageSharingWithUpload",
-      "projectPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithUpload\\ImageSharingWithUpload\\ImageSharingWithUpload.csproj",
+      "projectPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn1\\Caleb_Elliott\\ImageSharingWithUpload\\ImageSharingWithUpload\\ImageSharingWithUpload.csproj",
       "packagesPath": "C:\\Users\\ellio\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithUpload\\ImageSharingWithUpload\\obj\\",
+      "outputPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn1\\Caleb_Elliott\\ImageSharingWithUpload\\ImageSharingWithUpload\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -208,7 +208,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.100\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.402\\RuntimeIdentifierGraph.json"
       }
     }
   }

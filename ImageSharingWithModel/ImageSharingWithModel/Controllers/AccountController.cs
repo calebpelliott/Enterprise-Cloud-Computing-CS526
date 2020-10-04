@@ -44,8 +44,9 @@ namespace ImageSharingWithModel.Controllers
                 User User = await db.Users.SingleOrDefaultAsync(u => u.Username.Equals(info.Username));
                 if (User == null)
                 {
-                    // TODO Add user to database
-
+                    // Add user to database
+                    User = new User { Username = info.Username, ADA = info.IsADA() };
+                    db.Users.Add(User);
                 }
                 else
                 {
@@ -99,8 +100,9 @@ namespace ImageSharingWithModel.Controllers
 
         protected void SaveCookie (String key, String value)
         {
-            // TODO save the value in a cookie field key
-
+            var options = new CookieOptions() { IsEssential = true, Expires = DateTime.Now.AddMonths(3) };
+            // save the value in a cookie field key
+            Response.Cookies.Append(key, value, options);
         }
 
     }
