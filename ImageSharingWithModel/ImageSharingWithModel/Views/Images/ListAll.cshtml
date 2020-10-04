@@ -33,7 +33,8 @@
                 {
                     <text>
                         <!-- TODO add Edit and Delete links -->
-
+                        <a asp-action="Edit" asp-route-id="@image.Id">Edit</a>
+                        <a asp-action="Delete" asp-route-id="@image.Id">Delete</a>
                     </text>
                 }
             </td>

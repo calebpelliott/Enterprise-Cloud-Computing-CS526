@@ -339,10 +339,10 @@ namespace ImageSharingWithModel.Controllers
                 return ForceLogin();
             }
 
-            // TODO Return form for selecting a user from a drop-down list
-            return null;
-            // TODO
-
+            ViewBag.Message = "";
+            ListByUserView userView = new ListByUserView();
+            userView.Users = new SelectList(db.Users, "Id", "Username", 1);
+            return View(userView);
         }
 
         [HttpGet]
@@ -357,9 +357,19 @@ namespace ImageSharingWithModel.Controllers
 
             // TODO list all images uploaded by the user in userView (see List By Tag)
             // remember to eagerly load image entities related to the user.
-            return null;
-            // TODO
+            User user = await db.Users.FindAsync(userView.Id);
 
+            if (user == null)
+            {
+                return RedirectToAction("Error", "Home", new { ErrId = "ListByUser" });
+            }
+
+            ViewBag.Username = Username;
+            /*
+             * Eager loading of related entities
+             */
+            var images = db.Entry(user).Collection(u => u.Images).Query().Include(im => im.User).Include(im => im.Tag).ToList();
+            return View("ListAll", user.Images);
 
         }
 

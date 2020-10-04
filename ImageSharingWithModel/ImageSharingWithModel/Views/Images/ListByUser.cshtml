@@ -11,9 +11,7 @@
     <fieldset>
         <legend>Choose a user</legend>
         <p>
-            <!-- TODO select user from a drop-down menu -->
-
-
+            <select asp-for="Id" asp-items="Model.Users"></select>
         </p>
         <p>
             <input type="submit" value="List" />

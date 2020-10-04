@@ -13,7 +13,7 @@
     <fieldset>
         <legend>Edit Image Information</legend>
 
-        <input asp-for="Id" class="hidden" />
+        <input asp-for="Id" type="hidden" />
 
         <p>
             <img src="~/@(ImagesController.imageContextPath(Model.Id))" />
