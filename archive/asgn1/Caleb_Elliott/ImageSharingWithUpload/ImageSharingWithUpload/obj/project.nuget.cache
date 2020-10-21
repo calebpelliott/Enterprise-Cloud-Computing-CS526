@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "AqZAKiRQniowVOP/lZ2LcFhRePsT1cAtp/ygOB2sGDV9pwr4uEKiaLsMj0UEOoOnkNcXOWJ8dRebXVNXpLcrLg==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn1\\Caleb_Elliott\\ImageSharingWithUpload\\ImageSharingWithUpload\\ImageSharingWithUpload.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ellio\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
+    "C:\\Users\\ellio\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
+    "C:\\Users\\ellio\\.nuget\\packages\\system.drawing.common\\4.7.0\\system.drawing.common.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
