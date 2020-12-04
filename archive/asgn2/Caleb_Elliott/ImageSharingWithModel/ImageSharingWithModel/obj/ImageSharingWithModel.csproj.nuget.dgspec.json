@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj": {}
+    "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj": {}
   },
   "projects": {
-    "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj": {
+    "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
+        "projectUniqueName": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
         "projectName": "ImageSharingWithModel",
-        "projectPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
+        "projectPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
         "packagesPath": "C:\\Users\\ellio\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\obj\\",
+        "outputPath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
