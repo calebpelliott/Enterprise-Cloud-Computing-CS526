@@ -97,7 +97,7 @@ namespace ImageSharingWithCloudStorage.DAL
 
         protected string BlobUri (int imageId)
         {
-            return containerClient.Uri + "/" + CONTAINER + "/" + BlobName(imageId);
+            return containerClient.Uri + "/" + BlobName(imageId);
         }
 
         public async Task SaveFileAsync(IFormFile imageFile, int imageId)
