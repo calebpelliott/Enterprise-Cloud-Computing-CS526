@@ -115,7 +115,7 @@ namespace ImageSharingWithCloudStorage.DAL
                 BlobClient blobClient = containerClient.GetBlobClient(blobName);
                 using (var fstream = imageFile.OpenReadStream())
                 {
-                    await blobClient.UploadAsync(fstream);
+                    await blobClient.UploadAsync(fstream, headers);
                 }
                 
 
@@ -129,7 +129,8 @@ namespace ImageSharingWithCloudStorage.DAL
                 System.Drawing.Image img = System.Drawing.Image.FromStream(imageFile.OpenReadStream());
                 if (img.RawFormat.Guid == System.Drawing.Imaging.ImageFormat.Jpeg.Guid)
                 {
-                    StreamWriter file = new StreamWriter(imageDataFile(imageId));
+                    string filepath = imageDataFile(imageId);
+                    StreamWriter file = new StreamWriter(filepath);
                     await imageFile.CopyToAsync(file.BaseStream);
                 }
                 else
@@ -138,6 +139,12 @@ namespace ImageSharingWithCloudStorage.DAL
                 }
 
             }
+        }
+
+        public async Task RemoveFileAsync(int imageId)
+        {
+            string blobName = BlobName(imageId);
+            await containerClient.DeleteBlobIfExistsAsync(blobName);
         }
 
         public string ImageUri(IUrlHelper urlHelper, int imageId)

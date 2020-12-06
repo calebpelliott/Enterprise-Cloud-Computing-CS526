@@ -8,6 +8,8 @@ namespace ImageSharingWithCloudStorage.DAL
     {
         public Task SaveFileAsync(IFormFile imageFile, int imageId);
 
+        public Task RemoveFileAsync(int imageID);
+
         public string ImageUri(IUrlHelper urlHelper, int imageId);
     }
 }

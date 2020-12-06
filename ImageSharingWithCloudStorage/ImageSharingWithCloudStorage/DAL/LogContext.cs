@@ -20,14 +20,20 @@ namespace ImageSharingWithCloudStorage.DAL
 
         protected ILogger<LogContext> logger;
 
+        protected bool useLogging;
+
         public LogContext(IOptions<StorageOptions> options, ILogger<LogContext> logger)
         {
+            this.useLogging = !(options.Value.LogEntryDb == "YOUR CONNECTION STRING FOR TABLE"); 
             this.logger = logger;
 
             /*
              * Initialize the table.  The connection string is LogEntryDb in options.
-             */
-            this.table = GetTable(options.Value.LogEntryDb);
+             */           
+            if (useLogging)
+            {
+                this.table = GetTable(options.Value.LogEntryDb);
+            }
 
         }
 
@@ -67,6 +73,11 @@ namespace ImageSharingWithCloudStorage.DAL
 
         public async Task<CloudTable> CreateTableAsync()
         {
+            if (!useLogging)
+            {
+                return null;
+            }
+
             if (await table.CreateIfNotExistsAsync())
             {
                 logger.LogInformation("Created Table named: {0}", LOG_TABLE_NAME);
@@ -81,6 +92,11 @@ namespace ImageSharingWithCloudStorage.DAL
 
         public async Task AddLogEntryAsync(string user, ImageView image)
         {
+            if (!useLogging)
+            {
+                return;
+            }
+
             LogEntry entry = new LogEntry(image.Id);
             entry.Username = user;
             entry.Caption = image.Caption;

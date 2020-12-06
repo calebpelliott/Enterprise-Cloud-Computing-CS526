@@ -46,7 +46,7 @@ namespace ImageSharingWithCloudStorage
                 options.EnableSensitiveDataLogging(true);
             });
 
-            // TODO add identity service, with user class ApplicationUser, role class IdentityRole and EF store ApplicationDbContext
+            // add identity service, with user class ApplicationUser, role class IdentityRole and EF store ApplicationDbContext
             // For testing purposes, may want to disable various "strong password" requirements here.
             services.AddIdentity<ApplicationUser,IdentityRole>(options =>
             { 

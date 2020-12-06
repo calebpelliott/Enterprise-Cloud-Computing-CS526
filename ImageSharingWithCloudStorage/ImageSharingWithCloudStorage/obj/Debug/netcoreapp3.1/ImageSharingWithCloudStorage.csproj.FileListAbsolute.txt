@@ -245,3 +245,11 @@ C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\staticwebassets\ImageSharingWithCloudStorage.StaticWebAssets.Manifest.cache
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\staticwebassets\ImageSharingWithCloudStorage.StaticWebAssets.xml
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\ImageSharingWithCloudStorage.genruntimeconfig.cache
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Debug\netcoreapp3.1\Microsoft.Win32.SystemEvents.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Debug\netcoreapp3.1\System.Drawing.Common.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\Microsoft.Win32.SystemEvents.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp3.0\System.Drawing.Common.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\ImageSharingWithCloudStorage.csproj.CoreCompileInputs.cache
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\ImageSharingWithCloudStorage.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Debug\netcoreapp3.1\ImageSharingWithCloudStorage.MvcApplicationPartsAssemblyInfo.cache

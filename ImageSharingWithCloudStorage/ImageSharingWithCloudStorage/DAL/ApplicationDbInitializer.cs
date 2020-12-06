@@ -35,7 +35,7 @@ namespace ImageSharingWithCloudStorage.DAL
              * Create image views log it doesn't already exist
              */
             //TODOO
-            //await logs.CreateTableAsync();
+            await logs.CreateTableAsync();
 
             db.Database.Migrate();
 
@@ -51,7 +51,7 @@ namespace ImageSharingWithCloudStorage.DAL
                 logger.LogError("Failed to create User role!");
             }
 
-            // TODO add other roles
+            // add other roles
             await CreateRole(serviceProvider, "Admin");
             await CreateRole(serviceProvider, "Approver");
             await CreateRole(serviceProvider, "Supervisor");
@@ -70,16 +70,22 @@ namespace ImageSharingWithCloudStorage.DAL
                 logger.LogError("Failed to create nixon user!");
             }
 
-            // TODO add other users and assign more roles
-
-
+            // add other users and assign more roles
+            logger.LogInformation("Adding user: biden");
+            idResult = await CreateAccount(serviceProvider, "biden@example.org", "biden123", "Supervisor");
+            if (!idResult.Succeeded)
+            {
+                logger.LogError("Failed to create biden user!");
+            }
 
             Tag portrait = new Tag { Name = "portrait" };
             db.Tags.Add(portrait);
             Tag architecture = new Tag { Name = "architecture" };
             db.Tags.Add(architecture);
 
-            // TODO add other tags
+            // add other tags
+            Tag technology = new Tag { Name = "technology" };
+            db.Tags.Add(technology);
 
             db.SaveChanges();
 

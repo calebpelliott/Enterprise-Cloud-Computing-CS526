@@ -202,8 +202,8 @@ namespace ImageSharingWithCloudStorage.Controllers
                     var images = db.Entry(user).Collection(u => u.Images).Query().ToList();
                     foreach (Image image in images)
                     {
-                        // TODO Remove the image in blob storage.
-
+                        // Remove the image in blob storage.
+                        await this.images.RemoveFileAsync(image.Id);
                         db.Images.Remove(image);
                     }
                     user.Active = false;
