@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KjLUJepnCSrWPY0k5vkI0wjujnc2gUXHLhz7Vm46ILCEfk9raxof4HK6eoFENJ20q19Eh5/eHdsWlOu/DPCHMQ==",
+  "dgSpecHash": "zxGCOw4eeFRAfh3DBHwTHSdGW2YPLMUWycISxOI1iwoZ6Vhi+0NNtVD2PTR1D/RNvcynOZbXUDdco6AkY9Hxeg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
+  "projectFilePath": "C:\\Users\\ellio\\git\\Enterprise-Cloud-Computing-CS526\\archive\\asgn2\\Caleb_Elliott\\ImageSharingWithModel\\ImageSharingWithModel\\ImageSharingWithModel.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ellio\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\1.1.1\\microsoft.bcl.asyncinterfaces.1.1.1.nupkg.sha512",
     "C:\\Users\\ellio\\.nuget\\packages\\microsoft.bcl.hashcode\\1.1.0\\microsoft.bcl.hashcode.1.1.0.nupkg.sha512",
