@@ -34,7 +34,7 @@ namespace ImageSharingWithCloudStorage.DAL
             /*
              * Create image views log it doesn't already exist
              */
-            //TODOO
+
             await logs.CreateTableAsync();
 
             db.Database.Migrate();

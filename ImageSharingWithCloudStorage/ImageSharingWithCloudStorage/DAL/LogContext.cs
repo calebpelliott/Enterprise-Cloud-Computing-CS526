@@ -118,10 +118,30 @@ namespace ImageSharingWithCloudStorage.DAL
 
         public IEnumerable<LogEntry> LogsToday()
         {
+            if (!useLogging)
+            {
+                return null;
+            }
+
             TableQuery<LogEntry> query = new TableQuery<LogEntry>().Where(
                 TableQuery.GenerateFilterCondition("PartitionKey", 
                                     QueryComparisons.Equal, 
                                     DateTime.UtcNow.ToString("MMddyyyy")));
+
+            return table.ExecuteQuery(query);
+        }
+
+        public IEnumerable<LogEntry> LogsFromDay(string MMddyyyy)
+        {
+            if (!useLogging)
+            {
+                return null;
+            }
+
+            TableQuery<LogEntry> query = new TableQuery<LogEntry>().Where(
+                TableQuery.GenerateFilterCondition("PartitionKey",
+                                    QueryComparisons.Equal,
+                                    MMddyyyy));
 
             return table.ExecuteQuery(query);
         }

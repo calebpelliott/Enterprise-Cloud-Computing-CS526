@@ -253,3 +253,12 @@ C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Release\netcoreapp3.1\ImageSharingWithCloudStorage.dll
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Release\netcoreapp3.1\ImageSharingWithCloudStorage.pdb
 C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\obj\Release\netcoreapp3.1\ImageSharingWithCloudStorage.genruntimeconfig.cache
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Azure.Identity.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Azure.Storage.Files.Shares.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Azure.Storage.Queues.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Microsoft.Extensions.Azure.dll
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Properties\serviceDependencies.ImageSharingWithCloudStorage20201208140148 - Web Deploy.json
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ImageSharingWithCloudStorage20201208140148 - Web Deploy\profile.arm.json
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ImageSharingWithCloudStorage20201208140148 - Web Deploy\storage1.arm.json
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ImageSharingWithCloudStorage20201208140148 - Web Deploy\storage2.arm.json
+C:\Users\ellio\git\Enterprise-Cloud-Computing-CS526\ImageSharingWithCloudStorage\ImageSharingWithCloudStorage\bin\Release\netcoreapp3.1\Properties\ServiceDependencies\ImageSharingWithCloudStorage20201208140148 - Web Deploy\mssql2.arm.json

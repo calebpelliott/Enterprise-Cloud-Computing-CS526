@@ -3,6 +3,21 @@
     "mssql1": {
       "type": "mssql",
       "connectionId": "DefaultConnection"
+    },
+    "storage2": {
+      "type": "storage",
+      "connectionId": "ImageDb"
+    },
+    "storage1": {
+      "type": "storage",
+      "connectionId": "LogEntryDb"
+    },
+    "secrets1": {
+      "type": "secrets"
+    },
+    "mssql2": {
+      "type": "mssql",
+      "connectionId": "ApplicationDb"
     }
   }
 }

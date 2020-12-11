@@ -1,10 +1,18 @@
-﻿@model IEnumerable<ImageSharingWithCloudStorage.Models.LogEntry>
+﻿@model ImageSharingWithCloudStorage.Models.LogEntry
 
 @{
     ViewBag.Title = "Image Viewing Activity";
 }
 
 <h2>@ViewBag.Title</h2>
+
+<form method="get" asp-action="DoListByDate" asp-controller="Images" enctype="multipart/form-data">
+    <p>
+        Select a date:
+        <select asp-for="DateId" asp-items="Model.ListOfTimeIntervals"></select>
+        <input type="submit" value="Get Logs" />
+    </p>
+</form>
 
 <table class="gridTable">
     <tr>
@@ -13,18 +21,18 @@
         <th>Time</th>
     </tr>
 
-    @foreach (var entry in Model)
-    {
-        <tr>
-            <td>
-                <a asp-action="Details" asp-route-id="@entry.ImageId">entry.Caption</a>
-            </td>
-            <td>
-                @entry.Username
-            </td>
-            <td>
-                @string.Format("{0:t}", entry.EntryDate)
-            </td>
-        </tr>
-    }
+    @foreach (var entry in Model.entries)
+{
+    <tr>
+        <td>
+            <a asp-action="Details" asp-route-id="@entry.ImageId">@entry.Caption</a>
+        </td>
+        <td>
+            @entry.Username
+        </td>
+        <td>
+            @string.Format("{0:t}", entry.EntryDate)
+        </td>
+    </tr>
+}
 </table>

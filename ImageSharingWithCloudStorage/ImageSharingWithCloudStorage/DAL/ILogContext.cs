@@ -17,5 +17,7 @@ namespace ImageSharingWithCloudStorage.DAL
         public Task AddLogEntryAsync(string user, ImageView imageView);
 
         public IEnumerable<LogEntry> LogsToday();
+
+        public IEnumerable<LogEntry> LogsFromDay(string MMddyyyy);
     }
 }

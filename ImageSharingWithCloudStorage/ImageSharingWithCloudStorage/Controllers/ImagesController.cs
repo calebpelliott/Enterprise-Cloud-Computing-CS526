@@ -254,7 +254,7 @@ namespace ImageSharingWithCloudStorage.Controllers
                 return RedirectToAction("Error", "Home", new { ErrId = "DeleteNotAuth" });
             }
 
-            //db.Entry(imageEntity).State = EntityState.Deleted;
+            await images.RemoveFileAsync(Id);
             db.Images.Remove(image);
             db.SaveChanges();
             return RedirectToAction("Index", "Home");
@@ -391,8 +391,21 @@ namespace ImageSharingWithCloudStorage.Controllers
         public ActionResult ImageViews()
         {
             CheckAda();
-            IEnumerable<LogEntry> entries = logs.LogsToday();
-            return View(entries);
+            ViewBag.Message = "";
+            LogEntry logView = new LogEntry();
+            logView.entries = logs.LogsToday();
+
+            return View(logView);
+        }
+
+        [HttpGet]
+        [Authorize(Roles = "Supervisor")]
+        public ActionResult DoListByDate(LogEntry logView)
+        {
+            CheckAda();
+            logView.entries = logs.LogsFromDay(logView.DateId.ToString());
+
+            return View("ImageViews", logView);
         }
     }
 
